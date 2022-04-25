@@ -1,8 +1,9 @@
 #include <iostream>
-using namespace std;
-
+#include <string>
 
 int main() {
-    cout << "Hello world";
+    std::string name;
+    std::cin >> name;
+    std::cout << "Hello world from " << name;
     return 0;
 }
